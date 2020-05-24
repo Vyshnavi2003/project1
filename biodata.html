@@ -1,0 +1,82 @@
+<html>
+<head>  
+<title>BIODATA</title>
+</head>
+<style>
+body {
+  text-align:center; 
+  background-color: #cccccc;
+}
+</style>
+
+<body >
+
+
+<h2>BIODATA</h2>
+<form id = "myForm"
+<p1 style="font-size:20px">First Name     :</p1>
+<input type="text"><br><br>
+<p1 style="font-size:20px">Last Name      :</p1>
+<input type="text"><br><br>
+<p1 style="font-size:20px">Age            :</p1>
+<select>
+<option selected disabled>
+---select age---
+</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+</select><br><br>
+
+<p1 style="font-size:20px">Gender         :</p1>
+<input type="radio" name="gender" id="male">
+<label for="m" style="font-size:15px">Male</label>
+<input type="radio" name="gender" id="female">
+<label for="f" style="font-size:15px">Female</label><br><br>
+<p1 style="font-size:20px">State:</p1>
+<select>
+<option selected disabled>select state</option>
+<option>Karnataka</option>
+<option>andhra pradesh</option>
+<option>tamil nadu</option>
+<option>kerala</option>
+<option>mumbai</option>
+</select>
+<br><br>
+<div><p1 style="font-size:20px">favourite color:</p1><br>
+<input type="checkbox">
+<label for="r">Red</label><br>
+<input type="checkbox">
+<label for="bk">Black</label><br>
+<input type="checkbox">
+<label for="g">Green</label><br>
+<input type="checkbox">
+<label for="y">Yellow</label><br>
+<input type="checkbox">
+<label for="b">Blue</label><br>
+<input type="checkbox">
+<label for="p">Pink</label><br></div>
+
+<br><br>
+
+<input type="button" onclick = "myFunction()" value = "Submit">
+
+
+<input type="button" onclick = "myFunction1()" value = "Reset">
+</form>
+<script>
+function myFunction(){
+document.getElementById("myForm").submit();
+
+}
+function myFunction1(){
+document.getElementById("myForm").reset();
+
+}
+
+</script>
+</body>
+</html>
